@@ -13,11 +13,15 @@ public class Example {
 	private void method4() {
 		System.out.println("4");
 	}
+	private void method5() {
+		System.out.println("5");
+	}
 	public static void main(String[] args) {
 		Example e = new Example();
 		e.method();
 		e.method2();
 		e.method3();
 		e.method4();
+		e.method5();
 	}
 }
