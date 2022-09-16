@@ -16,6 +16,9 @@ public class Example {
 	private void method5() {
 		System.out.println("5");
 	}
+	private void method6() {
+		System.out.println("6");
+	}
 	public static void main(String[] args) {
 		Example e = new Example();
 		e.method();
@@ -23,5 +26,6 @@ public class Example {
 		e.method3();
 		e.method4();
 		e.method5();
+		e.method6();
 	}
 }
